@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -166,7 +166,7 @@ header {
 
 .header-item figure {
     height: 44px;
-    margin: 0;
+    
 }
 
 .header-item a span {
@@ -195,7 +195,7 @@ header {
 }
 
 .nav-item a p {
-    margin: 0;
+    
     color: #333;
 }
 
@@ -297,7 +297,7 @@ header {
 
 .nav-item-img-5-text {
     width: 53.36px;
-    margin: 0;
+    
 }
 
 .main {
@@ -323,7 +323,7 @@ header {
 .main-section-h1 h1{
     text-align: center;
     font-size: 80px;
-    margin: 0;
+    
 }
 
 .main-section-container {
@@ -342,7 +342,7 @@ header {
     background: url(../image/main_book1416.jpg);
     width: 578px;
     height: 258px;
-    margin: 0;
+    
     margin-bottom: 36px;
 }
 
@@ -357,21 +357,21 @@ header {
 .MacBook-Pro-13 h2 {
     font-size: 14px;
     font-weight: 400;
-    margin: 0;
+    
     width: 408px;
     height: 22px;
-    margin: 0;
+    
 }
 
 .MacBook-Pro-13 h3 {
     font-size: 40px;
     letter-spacing: -4px;
-    margin: 0;
+    
     margin-bottom: 11.5px;
 }
 
 .main-width-box  p {
-    margin: 0;
+    
 }
 
 .main-MacBook-Pro-13-price,
@@ -423,21 +423,22 @@ header {
 
 .MacBook-Pro-1416-smalltext {
     font-size: 14px;
+    color: orangered;
 }
 
 .MacBook-Pro-1416-nametext {
     font-size: 14px;
     font-weight: 400;
-    margin: 0;
+    
     width: 408px;
     height: 22px;
-    margin: 0;
+    
 }
 
 .MacBook-Pro-1416-h3  h3{
     font-size: 40px;
     letter-spacing: -4px;
-    margin: 0;
+    
     margin-bottom: 11.5px;
 }
 
@@ -492,7 +493,7 @@ header {
     height: 124px;
     margin-left: auto;
     margin-right: auto;
-    margin: 0;
+    
 }
 
 .notebook-more-1 {
@@ -532,7 +533,7 @@ header {
     background: url(../image/grid_m1.png);
     width: 48px;
     height: 44px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -541,7 +542,7 @@ header {
     background: url(../image/grid_memory.png);
     width: 48px;
     height: 44px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -550,7 +551,7 @@ header {
     background: url(../image/gridarea.png);
     width: 48px;
     height: 44px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -559,7 +560,7 @@ header {
     background: url(../image/gridarea\ camera.png);
     width: 48px;
     height: 44px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -568,7 +569,7 @@ header {
     background: url(../image/grid_touch.png);
     width: 48px;
     height: 44px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -577,7 +578,7 @@ header {
     background: url(../image/mac_14_puple.png);
     width: 214px;
     height: 130px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -586,7 +587,7 @@ header {
     background: url(../image/grid_m1_two.png);
     width: 90px;
     height: 40px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -595,7 +596,7 @@ header {
     background: url(../image/mac_16_puple.png)no-repeat;
     width: 236px;
     height: 146px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
     /* padding-top: 13px; */
@@ -605,14 +606,14 @@ header {
     background: url(../image/grid_touchcircle.png);
     width: 48px;
     height: 44px;
-    margin: 0;
+    
     margin-left: auto;
     margin-right: auto;
 }
 
 .grid-macbook-13 a {
     width: 290px;
-    margin: 0;
+    
 }
 /* 13시작 */
 .mac13.grid-pro-13 {
@@ -788,7 +789,7 @@ jj
     margin-bottom: 0;
     color: #1d1d1f;
     font-size: 14px;
-    margin: 0;
+    
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
@@ -812,7 +813,7 @@ jj
 .grid-ntb-name-1 {
     font-size: 24px;
     height: 31px;
-    margin: 0;
+    
     font-weight: 600;
     word-spacing: -2px;
 }
@@ -820,14 +821,14 @@ jj
 .grid-ntb-name-2 {
     font-size: 24px;
     height: 31px;
-    margin: 0;
+    
     font-weight: 600;
 }
 
 .grid-ntb-name-3 {
     font-size: 24px;
     height: 31px;
-    margin: 0;
+    
     font-weight: 600;
 }
 
@@ -837,7 +838,7 @@ jj
 }
 
 .new2 {
-    margin: 0;
+    
     font-size: 12px;
     text-align: center;
     color: orangered;
@@ -848,7 +849,7 @@ jj
 }
 
 .new3 {
-    margin: 0;
+    
     font-size: 12px;
     text-align: center;
     color: orangered;
@@ -888,13 +889,13 @@ jj
 .GPU h4 {
     text-align: center;
     font-size: 21px;
-    margin: 0;
+    
 }
 
 .CPU p,
 .GPU p {
     text-align: center;
-    margin: 0;
+    
 }
 
 .max {
@@ -908,12 +909,12 @@ jj
 .TB h4{
     font-size: 21px;
     text-align: center;
-    margin: 0;
+    
 }
 
 .TB p {
     font-size: 14px;
-    margin: 0;
+    
 }
 
 .memory {
@@ -924,13 +925,13 @@ jj
 .memoryicon2 p {
     font-size: 14px;
     text-align: center;
-    margin: 0;
+    
 }
 
 .grid-display h4,
 .grid-display2 h4 {
     font-size: 21px;
-    margin: 0;
+    
     text-align: center;
     margin-bottom: 5px;
 }
@@ -938,7 +939,7 @@ jj
 .grid-display p,
 .grid-display2 p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
 }
 
@@ -946,32 +947,32 @@ jj
 .bhclass p,
 .bhicon p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
 }
 
 .face-time p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
 }
 
 .kg2 h4 {
     font-size: 21px;
-    margin: 0;
+    
     text-align: center;
 }
 
 .kg2 p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
 }
 
 .grid-TouchID p,
 .grid-TouchID2 p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
     padding-bottom: 45px;
     border-bottom: 1px solid #ccc;
@@ -1013,7 +1014,7 @@ jj
     background: url(../image/kebord.jpg)no-repeat;
     background-size: 675px 272px;
     width: 100%;
-    margin: 0;
+    
     text-align: center;
 }
 
@@ -1037,7 +1038,7 @@ jj
 
 .last-content-item h3 {
     font-size: 40px;
-    margin: 0;
+    
 }
 
 .last-content-item p {
@@ -1062,7 +1063,7 @@ jj
 .bookimg {
     background: url(../image/bookgray.jpg)no-repeat;
     background-size: 424px 282px;
-    width: 424px;
+    /* width: 424px; */
     height: 282px;
 }
 
@@ -1076,6 +1077,7 @@ jj
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .last-content-item2-text {
@@ -1091,13 +1093,13 @@ jj
 
 .last-content-item2-text h3 {
     font-size: 40px;
-    margin: 0;
+    
     text-align: center;
 }
 
 .last-content-item2-text p {
     font-size: 17px;
-    width: 332px;
+    /* width: 332px; */
     text-align: center;
     margin: 13px auto;
 }
@@ -1149,13 +1151,13 @@ jj
 .GPU h4 {
     text-align: center;
     font-size: 21px;
-    margin: 0;
+    
 }
 
 .CPU p,
 .GPU p {
     text-align: center;
-    margin: 0;
+    
 }
 
 .max {
@@ -1169,12 +1171,12 @@ jj
 .TB h4{
     font-size: 21px;
     text-align: center;
-    margin: 0;
+    
 }
 
 .TB p {
     font-size: 14px;
-    margin: 0;
+    
 }
 
 .memory {
@@ -1185,13 +1187,13 @@ jj
 .memoryicon2 p {
     font-size: 14px;
     text-align: center;
-    margin: 0;
+    
 }
 
 .grid-display h4,
 .grid-display2 h4 {
     font-size: 21px;
-    margin: 0;
+    
     text-align: center;
     margin-bottom: 5px;
 }
@@ -1199,7 +1201,7 @@ jj
 .grid-display p,
 .grid-display2 p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
 }
 
@@ -1207,32 +1209,32 @@ jj
 .bhclass p,
 .bhicon p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
 }
 
 .face-time p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
 }
 
 .kg2 h4 {
     font-size: 21px;
-    margin: 0;
+    
     text-align: center;
 }
 
 .kg2 p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
 }
 
 .grid-TouchID p,
 .grid-TouchID2 p {
     font-size: 14px;
-    margin: 0;
+    
     text-align: center;
     padding-bottom: 45px;
     border-bottom: 1px solid #ccc;
@@ -1274,12 +1276,12 @@ jj
     color: #fff;
     margin-top: 127px;
     font-weight: 400;
-    margin: 0;
+    
 }
 
 .last-item3-text h3{
     font-size: 40px;
-    margin: 0;
+    
     cursor: pointer;
 }
 
@@ -1318,7 +1320,7 @@ jj
     background: url(../image/kebord.jpg)no-repeat;
     width: 675px;
     height: 272px;
-    margin: 0;
+    
     width: 100%;
     text-align: center;
 }
@@ -1341,7 +1343,7 @@ jj
 
 .last-content-item h3 {
     font-size: 40px;
-    margin: 0;
+    
 }
 
 .last-content-item p {
@@ -1386,7 +1388,7 @@ jj
 
 .last-content-item2-text h3 {
     font-size: 40px;
-    margin: 0;
+    
     text-align: center;
 }
 
@@ -1441,8 +1443,7 @@ jj
     overflow: hidden;
     position: absolute;
     top: 0;
-    left: 0;
-    margin: 0;
+    
 }
 
 .backimg1 {
@@ -1454,7 +1455,7 @@ jj
     position: absolute;
     top: 0;
     left: 0;
-    margin: 0;
+    
 
 }
 
@@ -1475,24 +1476,26 @@ jj
 }
 
 .last-item4-text h3 {
-    margin: 0;
+    
     font-size: 40px;
 
 }
 
 .more-section {
-    
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px;
     height: 495px;
     display: flex;
-    margin-left: 58px;
-    margin-right: 58px;
+    /* margin-left: 58px; */
+    /* margin-right: 58px; */
 }
 
 .delivery {
     background: url(../image/delivery.png);
     width: 40px;
     height: 44px;
-    margin: 0;
+    
 }
 
 
@@ -1504,12 +1507,12 @@ jj
     background-size: 100% 73px;
     background-position-y: -14px;
     height: 44px;
-    margin: 0;
+    
 }
 
 .left-section h2,
 .right-section h2 {
-    margin: 0;
+    
     font-size: 21px;
     font-weight: 600;
     margin-top: 16px;
@@ -1553,7 +1556,7 @@ jj
 
 .last-item3-text h3{
     font-size: 40px;
-    margin: 0;
+    
     cursor: pointer;
 }
 
@@ -1590,7 +1593,7 @@ jj
 
 .new1 {
     height: 16px;
-    margin: 0;
+    
 }
 
 .last-content-item4 {
@@ -1607,25 +1610,20 @@ jj
 
 .all-flex {
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
-    text-align: center;
-    box-sizing: border-box;
-    box-sizing: border-box;
     overflow: hidden;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 0 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
 
 }
 
 .last-content-wrapper-left {
     width: 100%;
-    margin-left: 30px;
 }
 
 .last-content-wrapper-right {
     width: 100%;
-    margin-right: 30px;
 }
 
 footer {
@@ -1674,7 +1672,7 @@ footer {
     background: url(../image/apple_gray_four.svg)no-repeat;
     width: 14px;
     height: 18px;
-    margin: 0;
+    
     padding-right: 8px;
 }
 
