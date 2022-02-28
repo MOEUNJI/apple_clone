@@ -1,0 +1,1765 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 44px;
+    background: #333;
+}
+
+.apple {
+    background: url(../image/header_logo.svg);
+    width: 14px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.apple:hover {
+    opacity: 1;
+}
+
+.Store {
+    background: url(../image/header_store.svg);
+    width: 30px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.Store:hover {
+    opacity: 1;
+}
+
+.mac {
+    background: url(../image/header_mac.svg);
+    width: 23px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.mac:hover {
+    opacity: 1;
+}
+
+.iPad {
+    background: url(../image/header_ipad.svg);
+    width: 24px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.iPad:hover {
+    opacity: 1;
+}
+
+.iPhone {
+    background: url(../image/header_iphone.svg);
+    width: 38px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.iPhone:hover {
+    opacity: 1;
+}
+
+.Watch {
+    background: url(../image/header_watch.svg);
+    width: 35px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.Watch:hover {
+    opacity: 1;
+}
+
+.AirPods {
+    background: url(../image/header_airpods.svg);
+    width: 43px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.AirPods:hover {
+    opacity: 1;
+}
+
+.TV {
+    background: url(../image/header_tvhome.svg);
+    width: 42px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.TV:hover {
+    opacity: 1;
+}
+
+.Appleonly {
+    background: url(../image/header_onlyonApple.svg);
+    width: 80px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.Appleonly:hover {
+    opacity: 1;
+}
+
+.accessory {
+    background: url(../image/header\ accessory.svg);
+    width: 42px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.accessory:hover {
+    opacity: 1;
+}
+
+.Customer-support {
+    background: url(../image/header_support.svg);
+    width: 39px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.Customer-support:hover {
+    opacity: 1;
+}
+
+.search-img {
+    background: url(../image/header_search.svg);
+    width: 15px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.search-img:hover {
+    opacity: 1;
+}
+
+.mybag-img {
+    background: url(../image/header_bag.svg);
+    width: 13px;
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
+.mybag-img:hover {
+    opacity: 1;
+}
+
+.header-item {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header-item a {
+    height: 44px;
+    padding: 0 8px;
+}
+
+.header-item figure {
+    height: 44px;
+    margin: 0;
+}
+
+.header-item a span {
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
+    top: 0;
+    position: absolute;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    background: #f7f7f7;
+}
+
+.nav-item a {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.nav-item a p {
+    margin: 0;
+    color: #333;
+}
+
+.nav-item a p:hover {
+    color: rgb(38, 118, 197);
+}
+
+.New {
+    height: 12px;
+    color: rgb(255, 115, 0);
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.nav-item-img-1 {
+    background: url(../image/nav_notebook.svg);
+    width: 52px;
+    height: 54px;
+    margin: 0 18.7125px 7px 18.7px;
+}
+
+.img1 {
+    padding: 0 20px 0 4px;
+    height: 80px;
+    margin-top: 3px;
+}
+
+.nav-item-img-2 {
+    background: url(../image/nav_notebooktwo.svg);
+    width: 85px;
+    height: 54px;
+    margin: 0 18.05px 7px;
+}
+
+.img2 {
+    height: 92px;
+    margin-top: 3px;
+    padding: 0 20px;
+}
+
+.nav-item-img-3 {
+    background: url(../image/nav_dotted.svg);
+    width: 45px;
+    height: 54px;
+    margin: 0 0 7px;
+}
+
+.img3 {
+    padding: 0 20px;
+    margin-top: 3px;
+    height: 80px;
+}
+
+.nav-item-img-3-text {
+    width: 45px;
+    white-space: nowrap;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.nav-item-img-4 {
+    background: url(../image/nav_Headset.svg);
+    width: 33px;
+    height: 54px;
+    margin: 0 2.45px 7px 2.45px;
+}
+
+.img4 {
+    padding: 0 20px;
+    margin-top: 3px;
+    height: 80px;
+}
+
+.nav-item-img-4-text {
+    width: 37.9px;
+    white-space: nowrap;
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.nav-item-img-5 {
+    background: url(../image/nav_macos.svg);
+    width: 35px;
+    height: 54px;
+}
+
+.nav-item-img-5 {
+    margin: 0 9.1875px 7px;
+}
+
+.img5 {
+    width: 77.36px;
+    height: 80px;
+    padding: 0 4px 0 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.nav-item-img-5-text {
+    width: 53.36px;
+    margin: 0;
+}
+
+.main {
+    padding-top: 66px;
+    padding-bottom: 122px;
+}
+
+.main-width-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.main-section-h1 {
+    width: 980px;
+    height: 92px;
+    margin: 0 auto;
+    padding-bottom: 67px;
+}
+
+.main-section-h1 h1{
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+}
+
+.main-section-container {
+    width: 980PX;
+    margin: 0 auto;
+}
+
+.main-MacBook-Pro-13-img {
+    background: url(../image/main_book13.jpg);
+    width: 374px;
+    height: 218px;
+    margin: 45px 20px 54px ;
+}
+
+.MacBook-Pro-1416-img {
+    background: url(../image/main_book1416.jpg);
+    width: 578px;
+    height: 258px;
+    margin: 0;
+    margin-bottom: 36px;
+}
+
+.MacBook-Pro-13 {
+    /* padding-top: 58px; */
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MacBook-Pro-13 h2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    width: 408px;
+    height: 22px;
+    margin: 0;
+}
+
+.MacBook-Pro-13 h3 {
+    font-size: 40px;
+    letter-spacing: -4px;
+    margin: 0;
+    margin-bottom: 11.5px;
+}
+
+.main-width-box  p {
+    margin: 0;
+}
+
+.main-MacBook-Pro-13-price,
+.MacBook-Pro-1416-price {
+    width: 176px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-MacBook-Pro-13-get-more,
+.MacBook-Pro-1416-get-more {
+    display: flex;
+    margin-top: 32px;
+    text-align: center;
+    justify-content: center;
+}
+
+.getbtn {
+    width: 85px;
+    height: 36px;
+    font-size: 15px;
+    border: none;
+    background: rgb(38, 118, 197);
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.main-MacBook-Pro-13-get-more span,
+.MacBook-Pro-1416-get-more span{
+    line-height: 36px;
+    color: rgb(38, 118, 197);
+    cursor: pointer;
+}
+
+.more:hover {
+    text-decoration: underline;
+}
+
+.MacBook-Pro-1416 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MacBook-Pro-1416-smalltext {
+    font-size: 14px;
+}
+
+.MacBook-Pro-1416-nametext {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    width: 408px;
+    height: 22px;
+    margin: 0;
+}
+
+.MacBook-Pro-1416-h3  h3{
+    font-size: 40px;
+    letter-spacing: -4px;
+    margin: 0;
+    margin-bottom: 11.5px;
+}
+
+.grid-section {
+    background: #f7f7f7;
+    padding-top: 110px;
+    padding-bottom: 113px;
+}
+
+.grid-section-box {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.grid-h4 h2 {
+    font-size: 48px;
+    margin-top: 0;
+    letter-spacing: -1px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.grid-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(10, auto);
+    place-items: center;
+    column-gap: 34px;
+    row-gap: 39px;
+    margin-top: 56px;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-areas: 
+    "mac13-notebook mac14-notebook mac16-notebook"
+    "mac13-chip mac14-chip mac16-chip" 
+    "mac13-cpu mac14-CPU mac16-CPU"
+    "mac13-GPU mac14-GPU mac16-GPU"
+    "mac13-memoryicon mac14-memoryicon2 mac16-memoryicon2"
+    "mac13-TB mac14-TB mac16-TB"
+    "mac13-display mac14-grid-display2 mac16-grid-display2"
+    "mac13-bh-box mac14-bhclass mac16-bhicon"
+    "mac13-face-time mac14-face-time mac16-face-time"
+    "mac13-kg2 mac14-kg2 mac16-kg2"
+    "mac13-grid-TouchID mac14-grid-TouchID2 mac16-grid-TouchID2";
+    place-items: center;
+}
+
+.notebook-13 {
+    background: url(../image/mac_13\ puple.png);
+    margin-right: 0;
+    width: 212px;
+    height: 124px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+}
+
+.notebook-more-1 {
+    background: url(../image/moreicom.png)no-repeat;
+    width: 32px;
+    height: 14px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.notebook-more-m2 {
+    background: url(../image/moreicom.png)no-repeat;
+    width: 32px;
+    height: 14px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.notebook-more-3 {
+    background: url(../image/moreicom.png)no-repeat;
+    width: 32px;
+    height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}   
+
+
+
+
+.applem1 {
+    background: url(../image/grid_m1.png);
+    width: 48px;
+    height: 44px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.memory {
+    background: url(../image/grid_memory.png);
+    width: 48px;
+    height: 44px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bh {
+    background: url(../image/gridarea.png);
+    width: 48px;
+    height: 44px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-face-time {
+    background: url(../image/gridarea\ camera.png);
+    width: 48px;
+    height: 44px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-touch-img {
+    background: url(../image/grid_touch.png);
+    width: 48px;
+    height: 44px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notebook-14 {
+    background: url(../image/mac_14_puple.png);
+    width: 214px;
+    height: 130px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apple-m1-pro-max {
+    background: url(../image/grid_m1_two.png);
+    width: 90px;
+    height: 40px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.notebook-16 {
+    background: url(../image/mac_16_puple.png)no-repeat;
+    width: 236px;
+    height: 146px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 13px; */
+}
+
+.grid-touch-id {
+    background: url(../image/grid_touchcircle.png);
+    width: 48px;
+    height: 44px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-macbook-13 a {
+    width: 290px;
+    margin: 0;
+}
+/* 13시작 */
+.mac13.grid-pro-13 {
+    grid-area: mac13-notebook;
+}
+
+.mac13.grid-getmore {
+    grid-area: mac13-more;
+}
+
+.mac13.chip {
+    grid-area: mac13-chip;
+}
+
+.mac13.CPU {
+    grid-area: mac13-cpu;
+}
+
+.mac13.GPU {
+    grid-area: mac13-GPU;
+}
+
+.mac13.memoryicon {
+    grid-area: mac13-memoryicon;
+}
+
+
+.mac13.CPU {
+    grid-area: mac13-cpu;
+}
+
+.mac13.GPU {
+    grid-area: mac13-GPU;
+}
+
+.mac13.memoryicon {
+    grid-area: mac13-memoryicon;
+}
+
+.mac13.TB {
+    grid-area: mac13-TB;
+}
+
+.mac13 .grid-display {
+    grid-area: mac13-display;
+}
+
+.mac13.bh-box {
+    grid-area: mac13-bh-box;
+}
+
+.mac13.face-time {
+    grid-area: mac13-face-time;
+}
+
+.mac13.kg2 {
+    grid-area: mac13-kg2;
+}
+
+.mac13.grid-TouchID {
+    grid-area: mac13-grid-TouchID;
+}
+
+/* 14시작 */
+
+.mac14.grid-pro-14 {
+    grid-area: mac14-notebook;
+}
+
+.mac14.grid-getmore {
+    grid-area: mac14-more;
+}
+
+.mac14.chip {
+    grid-area: mac14-chip;
+}
+
+.mac14.CPU {
+    grid-area: mac14-CPU;
+}
+
+.mac14.GPU {
+    grid-area: mac14-GPU;
+}
+
+.mac14.memoryicon2 {
+    grid-area: mac14-memoryicon2;
+}
+
+.mac14.TB {
+    grid-area: mac14-TB;
+}
+
+.mac14.grid-display2 {
+    grid-area: mac14-grid-display2;
+}
+
+.mac14.bhclass {
+    grid-area: mac14-bhclass;
+}
+
+.mac14.face-time {
+    grid-area: mac14-face-time;
+}
+
+.mac14.kg2 {
+    grid-area: mac14-kg2;
+}
+
+.mac14.grid-TouchID2 {
+    grid-area: mac14-grid-TouchID2;
+}
+
+/* 16시작 */
+
+.mac16.grid-pro-16 {
+    grid-area: mac16-notebook;
+}
+
+.mac16.grid-getmore {
+    grid-area: mac16-more;
+}
+
+.mac16.chip {
+    grid-area: mac16-chip;
+}
+
+.mac16.CPU {
+    grid-area: mac16-CPU;
+}
+
+.mac16.GPU {
+    grid-area: mac16-GPU;
+}
+
+.mac16.memoryicon2 {
+    grid-area: mac16-memoryicon2;
+}
+jj
+.mac16.TB {
+    grid-area: mac16-TB;
+} 
+
+.mac16.grid-display2 {
+    grid-area: mac16-grid-display2;
+}
+
+.mac16.bhicon {
+    grid-area: mac16-bhicon;
+}
+
+.mac16-face-time {
+    grid-area: mac16-face-time;
+}
+
+.mac16.kg2 {
+    grid-area: mac16-kg2;
+}
+
+.mac16.grid-TouchID2 {
+    grid-area: mac16-grid-TouchID2 ;
+}
+
+.grid-ntb-name-1,
+.grid-ntb-name-2,
+.grid-ntb-name-3 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid-price,
+.grid-price-3 {
+    margin-bottom: 0;
+    color: #1d1d1f;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.mac13.grid-getmore,
+.mac14.grid-getmore,
+.mac16.grid-getmore {
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    width: 250px;
+}
+
+.btn-more {
+    text-align: center;
+    font-size: 14px;
+    height: 27px;
+    line-height: 27px;
+    margin-top: 8px;
+}
+
+.grid-ntb-name-1 {
+    font-size: 24px;
+    height: 31px;
+    margin: 0;
+    font-weight: 600;
+    word-spacing: -2px;
+}
+
+.grid-ntb-name-2 {
+    font-size: 24px;
+    height: 31px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.grid-ntb-name-3 {
+    font-size: 24px;
+    height: 31px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.grid-price {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.new2 {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    color: orangered;
+
+    height: 16px;
+
+
+}
+
+.new3 {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    color: orangered;
+}
+
+
+.gridget {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 12px;
+    min-width: 23px;
+    padding: 4px 11px;
+    padding-bottom: 4px;
+    background: rgb(38, 118, 197);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+
+}
+
+.grid-getmore {
+    height: 58.2px;
+    width: 150px;
+    color: rgb(38, 118, 197);
+    padding-bottom: 22px;
+}
+
+.chip p {
+    font-size: 14px;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+.CPU h4,
+.GPU h4 {
+    text-align: center;
+    font-size: 21px;
+    margin: 0;
+}
+
+.CPU p,
+.GPU p {
+    text-align: center;
+    margin: 0;
+}
+
+.max {
+    margin-top: -15px;
+    margin-bottom: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.TB h4{
+    font-size: 21px;
+    text-align: center;
+    margin: 0;
+}
+
+.TB p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.memory {
+    margin-bottom: 10px;
+}
+
+.memoryicon p,
+.memoryicon2 p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.grid-display h4,
+.grid-display2 h4 {
+    font-size: 21px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.grid-display p,
+.grid-display2 p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.bh-box p,
+.bhclass p,
+.bhicon p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.face-time p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.kg2 h4 {
+    font-size: 21px;
+    margin: 0;
+    text-align: center;
+}
+
+.kg2 p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.grid-TouchID p,
+.grid-TouchID2 p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #ccc;
+    width: 250px;
+}
+
+.grid-touch-img {
+    margin-bottom: 8px;
+}
+
+.mac-shop {
+    font-size: 21px;
+    padding-top: 43px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(38, 118, 197);
+}
+
+.hover:hover {
+    text-decoration: underline;
+}
+
+.mar {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.last-content-item {
+    display: flex;
+    height: 750px;
+    flex-direction: column;
+    background: #eee;
+    margin-top: 30px;
+    margin-right: 15px;
+    max-width: 50%;
+}
+
+.mouseimg {
+    background: url(../image/kebord.jpg)no-repeat;
+    background-size: 675px 272px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+.last-content-item h2,
+.last-content-item h3,
+.last-content-item a {
+    text-align: center;
+}
+
+.last-content-item-text {
+    padding: 64px 10px 54px 10px;
+}
+
+.last-content-item h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.last-content-item h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.last-content-item p {
+    height: 36px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.last-content-item a {
+    background: rgb(38, 118, 197);
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.bookimg {
+    background: url(../image/bookgray.jpg)no-repeat;
+    background-size: 424px 282px;
+    width: 424px;
+    height: 282px;
+}
+
+.last-content-item2 {
+    display: flex;
+    height: 750px;
+    background: #eee;
+    margin-top: 30px;
+    max-width: 100%;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.last-content-item2-text {
+    padding: 64px 10px 58px 10px;
+}
+
+.last-content-item2-text h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+.last-content-item2-text h3 {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.last-content-item2-text p {
+    font-size: 17px;
+    width: 332px;
+    text-align: center;
+    margin: 13px auto;
+}
+
+.price-more {
+    width: 100%;
+}
+
+.price-more a {
+    text-decoration: none;
+}
+
+.price-more-more-1 {
+    font-size: 15px;
+    color: rgb(38, 118, 197);
+    font-weight: 600;
+}
+
+.price-more-more-1:hover {
+    text-decoration: underline;
+}
+
+.price-more-more {
+    font-size: 15px;
+    color: rgb(38, 118, 197);
+    font-weight: 600;
+}
+
+.grid-getmore {
+    height: 58.2px;
+    width: 150px;
+}
+
+
+.mac-BOOK {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chip p {
+    font-size: 14px;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+.CPU h4,
+.GPU h4 {
+    text-align: center;
+    font-size: 21px;
+    margin: 0;
+}
+
+.CPU p,
+.GPU p {
+    text-align: center;
+    margin: 0;
+}
+
+.max {
+    margin-top: -15px;
+    margin-bottom: -5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.TB h4{
+    font-size: 21px;
+    text-align: center;
+    margin: 0;
+}
+
+.TB p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.memory {
+    margin-bottom: 10px;
+}
+
+.memoryicon p,
+.memoryicon2 p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.grid-display h4,
+.grid-display2 h4 {
+    font-size: 21px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.grid-display p,
+.grid-display2 p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.bh-box p,
+.bhclass p,
+.bhicon p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.face-time p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.kg2 h4 {
+    font-size: 21px;
+    margin: 0;
+    text-align: center;
+}
+
+.kg2 p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.grid-TouchID p,
+.grid-TouchID2 p {
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #ccc;
+    width: 250px;
+}
+
+.grid-touch-img {
+    margin-bottom: 8px;
+}
+
+.mac-shop {
+    font-size: 21px;
+    padding-top: 43px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(38, 118, 197);
+}
+
+.mar {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.last-content-item {
+    display: flex;
+    height: 750px;
+    background: #eee;
+    margin-top: 30px;
+    margin-right: 15px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.last-item3-text {
+    padding: 64px 10px 58px 10px;
+    z-index: 999;
+    text-align: center;
+    color: #fff;
+    margin-top: 127px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.last-item3-text h3{
+    font-size: 40px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.Work-text {
+    font-size: 17px;
+    margin-top: 13px;
+    margin-bottom: 0;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.textw {
+    width: 100%;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.textw span {
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.more:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 350px;
+}
+
+.mouseimg {
+    background: url(../image/kebord.jpg)no-repeat;
+    width: 675px;
+    height: 272px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.last-content-item h2,
+.last-content-item h3,
+.last-content-item a {
+    text-align: center;
+}
+
+.last-content-item-text {
+    padding: 64px 10px 54px 10px;
+}
+
+.last-content-item h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.last-content-item h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.last-content-item p {
+    height: 36px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.last-content-item a {
+    background: rgb(38, 118, 197);
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.bookimg {
+    background: url(../image/bookgray.jpg)no-repeat;
+    width: 430px;
+    height: 272px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    bottom: 0;
+}
+
+.last-content-item2-text {
+    padding: 64px 10px 58px 10px;
+}
+
+.last-content-item2-text h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+.last-content-item2-text h3 {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.last-content-item2-text p {
+    font-size: 17px;
+    width: 332px;
+    text-align: center;
+    margin: 13px auto;
+}
+
+.price-more {
+    width: 100%;
+}
+
+.price-more a {
+    text-decoration: none;
+}
+
+.price-more-more-1 {
+    font-size: 15px;
+    color: rgb(38, 118, 197);
+    font-weight: 600;
+}
+
+.price-more-more-1:hover {
+    text-decoration: underline;
+}
+
+.price-more-more {
+    font-size: 15px;
+    color: rgb(38, 118, 197);
+    font-weight: 600;
+}
+
+.last-content-item3 {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    margin-top: 30px;
+    max-width: 100%;
+    position: relative;
+    margin-right: 15px;
+}
+
+.backimg2 {
+    background: url(../image/Friends.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.backimg1 {
+    background: url(../image/parent.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+
+}
+
+.last-item3-text {
+    padding: 64px 10px 58px 10px;
+    z-index: 999;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.last-item4-text {
+    z-index: 999;
+    color: #fff;
+    text-align: center;
+}
+
+.last-item4-text h3 {
+    margin: 0;
+    font-size: 40px;
+
+}
+
+.more-section {
+    
+    height: 495px;
+    display: flex;
+    margin-left: 58px;
+    margin-right: 58px;
+}
+
+.delivery {
+    background: url(../image/delivery.png);
+    width: 40px;
+    height: 44px;
+    margin: 0;
+}
+
+
+.card {
+    background: url(../image/money.svg)no-repeat;
+    width: 450px;
+    height: 44px;
+    background-size: 100% 73px;
+    background-size: 100% 73px;
+    background-position-y: -14px;
+    height: 44px;
+    margin: 0;
+}
+
+.left-section h2,
+.right-section h2 {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.left-section p,
+.right-section p {
+    margin: 16px 118px 0px 118px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+}
+
+.left-section .more-box,
+.right-section .more-box {
+    color: rgb(38, 118, 197);
+}
+
+.left-section a,
+.right-section a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(38, 118, 197);
+}
+.left-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.last-item3-text h3{
+    font-size: 40px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.Work-text {
+    font-size: 17px;
+    margin-top: 13px;
+    margin-bottom: 0;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.textw {
+    width: 100%;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.textw span {
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.more:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    height: 350px;
+    text-align: center;
+    justify-content: flex-end;
+
+}
+
+.new1 {
+    height: 16px;
+    margin: 0;
+}
+
+.last-content-item4 {
+    display: flex;
+    height: 600px;
+    background: #eee;
+    margin-top: 30px;
+    max-width: 100%;
+    margin-left: 15px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.all-flex {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.last-content-wrapper-left {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.last-content-wrapper-right {
+    width: 100%;
+    margin-right: 30px;
+}
+
+footer {
+    background: #f7f7f7;
+    font-size: 12px;
+}
+
+.footer-text {
+    padding: 17px 0 11px 0;
+    margin: 0 auto;
+    width: 980px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-ulol ol li,
+.footer-ulol ul li{
+    padding-bottom: 9px;
+    color: #626273;
+}
+
+.footer-ulol ol,
+.footer-ulol ul {
+    padding-left: 13px;
+}
+
+.footer-row-navbar {
+    padding: 17px 0;
+    margin: 0 auto;
+    width: 980px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer-row-navbar span {
+    padding: 0 8px 0 8px;
+    color: #626273;
+}
+
+.footer-row-navbar a {
+    text-decoration: none;
+    color: #626273;
+}
+
+.very-small-apple-img {
+    background: url(../image/apple_gray_four.svg)no-repeat;
+    width: 14px;
+    height: 18px;
+    margin: 0;
+    padding-right: 8px;
+}
+
+.footer-column-navbar {
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer-column-navbar1 {
+    display: flex;
+}
+
+.column {
+    width: 196px;
+    align-items: flex-start;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 9px;
+}
+
+.column h3 {
+    font-size: 12px;
+    color: #1d1d1f;
+}
+
+.column ul li a {
+    text-decoration: none;
+    color: #626273;
+}
+
+.column ul li a:hover {
+    text-decoration: underline;
+}
+
+.really-last {
+    padding: 34px 0 21px 0;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.really-last-text-up {
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    color: #626273;
+}
+
+.really-last-text-up a {
+    text-decoration: none;
+    color: rgb(38, 118, 197);
+}
+
+.really-last-text-up a:hover {
+    text-decoration: underline;
+}
+
+.really-last-text-down span {
+    margin-top: 5px;
+    margin-right: 30px;
+    color: #626273;
+}
+
+
+.really-last-text-down a {
+    margin-right: 7px;
+    padding-right: 10px;
+    color: #626273;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.really-last-text-down a:hover {
+    text-decoration: underline;
+}
+
+#right {
+    margin-right: 0;
+    margin-left: 145px;
+    padding-right: 0;
+    border-right: none;
+}
