@@ -3,6 +3,65 @@
     padding: 0;
 }
 
+.hidden {
+    height: 44px;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hidden-apple {
+    background: url(../image/header_logo.svg)no-repeat;
+    width: 14px;
+    height: 44px;
+    margin: 0 auto;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.hidden-apple:hover,
+.hidden-mybag-img:hover,
+.ham-box:hover {
+    opacity: 1;
+}
+
+
+.hidden-mybag-img {
+    background: url(../image/header_bag.svg)no-repeat;
+    width: 14px;
+    height: 44px;
+    padding-right: 16px;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.display-none-nav {
+    display: none;
+}
+
+.ham-box {
+	width: 44px;
+	height: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    transition: 0.2s;
+}
+.ham-box span {
+	left: 0;
+	width: 35%;
+	height: 2px;
+	background-color: #ccc;
+	border-radius: 10px;
+}
+
+.ham2 {
+    margin-top: 5px;
+}
+
 header {
     height: 44px;
     background: #333;
@@ -303,6 +362,8 @@ header {
 .main {
     padding-top: 66px;
     padding-bottom: 122px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .main-width-box {
@@ -356,21 +417,14 @@ header {
 .MacBook-Pro-13 h2 {
     font-size: 14px;
     font-weight: 400;
-    
     width: 408px;
     height: 22px;
-    
 }
 
 .MacBook-Pro-13 h3 {
     font-size: 40px;
     letter-spacing: -4px;
-    
     margin-bottom: 11.5px;
-}
-
-.main-width-box  p {
-    
 }
 
 .main-MacBook-Pro-13-price,
@@ -429,16 +483,13 @@ header {
 .MacBook-Pro-1416-nametext {
     font-size: 14px;
     font-weight: 400;
-    
     width: 408px;
     height: 22px;
-    
 }
 
 .MacBook-Pro-1416-h3  h3{
     font-size: 40px;
     letter-spacing: -4px;
-    
     margin-bottom: 11.5px;
 }
 
@@ -1003,8 +1054,7 @@ jj
     background: url(../image/kebord.jpg)no-repeat;
     background-size: 675px 272px;
     width: 100%;
-    
-    text-align: center;
+    background-position: center;
 }
 
 
@@ -1027,7 +1077,6 @@ jj
 
 .last-content-item h3 {
     font-size: 40px;
-    
 }
 
 .last-content-item p {
@@ -1059,7 +1108,7 @@ jj
 .last-content-item2 {
     display: flex;
     height: 750px;
-    background: #eee;
+    background: #f2f2f2;
     margin-top: 30px;
     width: 100%;
     justify-content: center;
@@ -1246,7 +1295,7 @@ jj
 
 .last-content-item {
     height: 750px;
-    background: #eee;
+    background: #f2f2f2;
     margin-top: 30px;
     overflow: hidden;
     position: relative;
@@ -1298,7 +1347,7 @@ jj
     height: 272px;
     background-position: center;
     width: 100%;
-    text-align: center;
+    background-position: center;
 }
 
 .last-content-item h2,
@@ -1411,6 +1460,10 @@ jj
     margin-right: 15px;
 }
 
+.last-content-item3-padding {
+    width: 50%;
+}
+
 .backimg2 {
     background: url(../image/Friends.jpg);
     background-size: cover;
@@ -1431,8 +1484,6 @@ jj
     position: absolute;
     top: 0;
     left: 0;
-    
-
 }
 
 .last-item3-text {
@@ -1516,7 +1567,15 @@ jj
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.left-right-section {
+    display: flex;
+    margin: 50px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 30px;
+    margin: 30px auto;
 }
 
 .last-item3-text h3{
@@ -1564,6 +1623,10 @@ jj
     align-items: center;
 }
 
+.last-content-item4-padding {
+    width: 50%;
+}
+
 .all-flex {
     display: flex;
     flex-wrap: wrap;
@@ -1590,9 +1653,9 @@ footer {
 }
 
 .footer-text {
-    padding: 17px 0 11px 0;
+    padding: 17px 22px 11px 22px;
     margin: 0 auto;
-    width: 980px;
+    max-width: 980px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -1608,9 +1671,9 @@ footer {
 }
 
 .footer-row-navbar {
-    padding: 17px 0;
+    padding: 17px 22px;
     margin: 0 auto;
-    width: 980px;
+    max-width: 980px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -1635,9 +1698,10 @@ footer {
 }
 
 .footer-column-navbar {
-    width: 980px;
+    max-width: 980px;
     margin: 0 auto;
     display: flex;
+    padding: 0 22px;
 }
 
 .footer-column-navbar1 {
@@ -1720,3 +1784,318 @@ footer {
     border-right: none;
 }
 
+
+@media(max-width:1068px) {
+
+    .main-section-h1 h1 {
+        font-size: 65px;
+    }
+
+    .main-MacBook-Pro-13-img {
+        background: url(../image/main13_medium.jpg);
+        width: 264px;
+        height: 156px;
+        margin: 45px 20px 54px ;
+    }
+
+    .MacBook-Pro-1416-img {
+        background: url(../image/main1416_medium.jpg);
+        width: 408px;
+        height: 182px;
+        margin-bottom: 36px;
+    }
+
+    .main-section-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-width-box {
+        padding-top: 20px;
+        align-items: flex-end;
+        max-width: 690px;
+        justify-content: center;
+    }
+
+    .MacBook-Pro-13 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+    }
+    .MacBook-Pro-13 h2 {
+        font-size: 12px;
+        font-weight: 400;
+        width: 408px;
+        height: 22px;
+    }
+    
+    .MacBook-Pro-13 h3 {
+        font-size: 30px;
+        letter-spacing: -4px;
+        margin-bottom: 11.5px;
+    }
+
+    .MacBook-Pro-1416-smalltext {
+        font-size: 12px;
+        color: orangered;
+    }
+    
+    .MacBook-Pro-1416-nametext {
+        font-size: 12px;
+        font-weight: 400;
+        width: 408px;
+        height: 22px;
+    }
+    
+    .MacBook-Pro-1416-h3  h3{
+        font-size: 30px;
+        letter-spacing: -4px;
+        margin-bottom: 11.5px;
+    }
+
+    .grid-section-box {
+        width: 980px;
+        margin: 0 auto;
+        width: 722px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grid-area {
+        margin-top: 30px;
+        grid-column-gap: 16px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .grid-h4 h2 {
+        font-size: 33px;
+        padding-bottom: 30px;
+    }
+
+    .Book-img-wrapper {
+        height: 350px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .bookimg {
+        background: url(../image/bookimg_medium.jpg)no-repeat;
+        width: 296px;
+        height: 176px;
+    }
+
+    .last-content-item2 {
+        justify-content: center;
+        height: 650px;
+    }
+
+    .last-content-item2-text h3 {
+        font-size: 30px;
+    }
+
+    
+    .last-content-item {
+        height: 650px;
+    }
+    
+    .last-content-item h2 {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 9px;
+    }
+    
+    .last-content-item h3 {
+        font-size: 30px;
+    }
+    
+    .mouseimg {
+        background: url(../image/mouse-medium.jpg)no-repeat;
+        background-size: 504px 202px;
+        width: 100%;
+        background-position: center;
+    }
+
+    .backimg1 {
+        background: url(../image/prants_medium.jpg);
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .backimg2 {
+        background: url(../image/friends_medium.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .left-section h2,
+    .right-section h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+
+    .left-section p,
+    .right-section p {
+        margin: 16px 118px 0px 118px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 2;
+    }
+}
+
+@media(max-width:834px) {
+    header {
+        display: none;
+    }
+
+    .display-none-nav {
+        display: block;
+    }
+}
+
+@media(max-width:734px) {
+
+    .main-section-h1 h1 {
+        font-size: 40px;
+    }
+
+    .main-section-h1 {
+        padding: 0;
+    }
+
+    .main-MacBook-Pro-13-img {
+        background: url(../image/mac-13_small.jpg);
+        width: 218px;
+        height: 128px;
+        margin: 45px 20px 54px ;
+    }
+
+    .MacBook-Pro-1416-img {
+        background: url(../image/main1416_small.jpg);
+        width: 322px;
+        height: 152px;
+        margin-bottom: 36px;
+    }
+
+    .main-width-box {
+        flex-wrap: wrap-reverse;
+    }
+
+    .MacBook-Pro-1416 {
+        margin-bottom: 50px;
+    }
+
+    .grid-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:repeat(10, auto);
+        place-items: center;
+        column-gap: 34px;
+        row-gap: 39px;
+        margin-top: 56px;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-template-areas: 
+        "mac13-notebook mac14-notebook"
+        "mac13-chip mac14-chip" 
+        "mac13-cpu mac14-CPU"
+        "mac13-GPU mac14-GPU"
+        "mac13-memoryicon mac14-memoryicon2"
+        "mac13-TB mac14-TB"
+        "mac13-display mac14-grid-display2"
+        "mac13-bh-box mac14-bhclass"
+        "mac13-face-time mac14-face-time"
+        "mac13-kg2 mac14-kg2"
+        "mac13-grid-TouchID mac14-grid-TouchID2"
+        "mac16-notebook . "
+        "mac16-chip . "
+        "mac16-CPU . "
+        "mac16-GPU . "
+        "mac16-memoryicon2 . "
+        "mac16-TB . "
+        "mac16-grid-display2 . "
+        "mac16-bhicon . "
+        "mac16-face-time ."
+        "mac16-kg2 . "
+        "mac16-grid-TouchID2 . ";
+        place-items: center;
+    }
+    
+    .backimg1 {
+        background: url(../image/parent_small.jpg);
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .backimg2 {
+        background: url(../image/friends-small.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .all-flex {
+        flex-wrap: wrap;
+        display: flex;
+        padding: 0;
+    }
+
+    .last-content-item-padding,
+    .last-content-item3-padding {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 15px;
+    }
+
+    .last-content-item2-padding,
+    .last-content-item4-padding {
+        padding-right: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mouseimg {
+        background: url(../image/mouse-medium.jpg)no-repeat;
+        background-size: cover;
+        width: 100%;
+        background-position: center;
+    }
+
+    .left-right-section {
+        flex-wrap: wrap;
+    }
+
+    .left-section {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .right-section {
+        width: 100%;
+    }
+}
