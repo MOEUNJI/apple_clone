@@ -869,7 +869,7 @@ jj
     border: none;
     outline: none;
     margin: 0 auto;
-
+    cursor: pointer;
 }
 
 .grid-getmore {
@@ -1443,7 +1443,7 @@ jj
     overflow: hidden;
     position: absolute;
     top: 0;
-    
+    left: 0;
 }
 
 .backimg1 {
