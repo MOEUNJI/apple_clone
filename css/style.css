@@ -342,13 +342,12 @@ header {
     background: url(../image/main_book1416.jpg);
     width: 578px;
     height: 258px;
-    
     margin-bottom: 36px;
 }
 
 .MacBook-Pro-13 {
     /* padding-top: 58px; */
-    padding-right: 40px;
+    /* padding-right: 40px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -419,6 +418,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 490px;
 }
 
 .MacBook-Pro-1416-smalltext {
@@ -899,11 +899,8 @@ jj
 }
 
 .max {
-    margin-top: -15px;
-    margin-bottom: -5px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
+    margin: 0 auto;
+    font-size: 12px;
 }
 
 .TB h4{
@@ -1000,15 +997,7 @@ jj
     cursor: pointer;
 }
 
-.last-content-item {
-    display: flex;
-    height: 750px;
-    flex-direction: column;
-    background: #eee;
-    margin-top: 30px;
-    margin-right: 15px;
-    max-width: 50%;
-}
+
 
 .mouseimg {
     background: url(../image/kebord.jpg)no-repeat;
@@ -1072,12 +1061,17 @@ jj
     height: 750px;
     background: #eee;
     margin-top: 30px;
-    max-width: 100%;
-    margin-left: 15px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+}
+
+.last-content-item2-padding {
+    padding-left: 15px;
+    width: 50%;
+    box-sizing: border-box;
 }
 
 .last-content-item2-text {
@@ -1157,15 +1151,7 @@ jj
 .CPU p,
 .GPU p {
     text-align: center;
-    
-}
-
-.max {
-    margin-top: -15px;
-    margin-bottom: -5px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .TB h4{
@@ -1259,30 +1245,20 @@ jj
 }
 
 .last-content-item {
-    display: flex;
     height: 750px;
     background: #eee;
     margin-top: 30px;
-    margin-right: 15px;
-    max-width: 100%;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-.last-item3-text {
-    padding: 64px 10px 58px 10px;
-    z-index: 999;
-    text-align: center;
-    color: #fff;
-    margin-top: 127px;
-    font-weight: 400;
-    
-}
-
-.last-item3-text h3{
-    font-size: 40px;
-    
-    cursor: pointer;
+.last-content-item-padding {
+    padding-right: 15px;
+    width: 50%;
+    box-sizing: border-box;
 }
 
 .Work-text {
@@ -1313,14 +1289,14 @@ jj
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    height: 350px;
+    height: 380px;
 }
 
 .mouseimg {
     background: url(../image/kebord.jpg)no-repeat;
     width: 675px;
     height: 272px;
-    
+    background-position: center;
     width: 100%;
     text-align: center;
 }
@@ -1465,7 +1441,6 @@ jj
     text-align: center;
     color: #fff;
     font-weight: 400;
-    width: 500px;
     margin: 0 auto;
 }
 
@@ -1479,16 +1454,6 @@ jj
     
     font-size: 40px;
 
-}
-
-.more-section {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 30px;
-    height: 495px;
-    display: flex;
-    /* margin-left: 58px; */
-    /* margin-right: 58px; */
 }
 
 .delivery {
@@ -1556,7 +1521,6 @@ jj
 
 .last-item3-text h3{
     font-size: 40px;
-    
     cursor: pointer;
 }
 
@@ -1583,14 +1547,6 @@ jj
     text-decoration: underline;
 }
 
-.flex {
-    display: flex;
-    height: 350px;
-    text-align: center;
-    justify-content: flex-end;
-
-}
-
 .new1 {
     height: 16px;
     
@@ -1610,9 +1566,11 @@ jj
 
 .all-flex {
     display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
     padding: 0 30px;
     max-width: 1440px;
+    /* width: 100%; */
     margin: 0 auto;
     box-sizing: border-box;
 
@@ -1761,3 +1719,4 @@ footer {
     padding-right: 0;
     border-right: none;
 }
+
