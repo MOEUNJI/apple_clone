@@ -803,7 +803,7 @@ header {
 .mac16.memoryicon2 {
     grid-area: mac16-memoryicon2;
 }
-jj
+
 .mac16.TB {
     grid-area: mac16-TB;
 } 
@@ -2002,7 +2002,7 @@ footer {
     .grid-area {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows:repeat(10, auto);
+        grid-template-rows:repeat(22, auto);
         place-items: center;
         column-gap: 34px;
         row-gap: 39px;
@@ -2021,17 +2021,17 @@ footer {
         "mac13-face-time mac14-face-time"
         "mac13-kg2 mac14-kg2"
         "mac13-grid-TouchID mac14-grid-TouchID2"
-        "mac16-notebook . "
-        "mac16-chip . "
-        "mac16-CPU . "
-        "mac16-GPU . "
+        "mac16-notebook ."
+        "mac16-chip ."
+        "mac16-CPU ."
+        "mac16-GPU ."
         "mac16-memoryicon2 . "
-        "mac16-TB . "
-        "mac16-grid-display2 . "
-        "mac16-bhicon . "
+        "mac16-TB ."
+        "mac16-grid-display2 ."
+        "mac16-bhicon ."
         "mac16-face-time ."
-        "mac16-kg2 . "
-        "mac16-grid-TouchID2 . ";
+        "mac16-kg2 ."
+        "mac16-grid-TouchID2 .";
         place-items: center;
     }
     
